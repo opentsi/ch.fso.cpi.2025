@@ -10,13 +10,13 @@
 process_data <- function(key = key) {
   set_config(api_key = key)
 
-  keys <- read_dataset_keys("ch.fso.indpau")
+  keys <- read_dataset_keys("ch.fso.cpi.2025")
   tsl <- read_ts(keys)
 
   out_paths <- lapply(names(tsl), function(k) {
     ts_obj <- tsl[[k]]
     # remove prefix so it matches with current data
-    k <- sub("^ch\\.fso\\.indpau\\.", "", k)
+    k <- sub("^ch\\.fso\\.cpi\\.2025\\.", "", k)
     print(k)
 
     output_path <- file.path("data-raw", "csv", paste0(k, ".csv"))

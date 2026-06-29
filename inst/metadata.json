@@ -1,0 +1,2102 @@
+{
+  "country": "ch",
+  "provider": "fso",
+  "dataset": "cpi_2025",
+  "title": {
+    "en": "Consumer Price Index 2025",
+    "de": "Landesindex der Konsumentenpreise 2025",
+    "fr": "Indice des prix à la consommation 2025",
+    "it": "Indice dei prezzi al consumo 2025"
+  },
+  "source_name": {
+    "en": "Federal Statistical Office (FSO)",
+    "de": "Bundesamt für Statistik (BFS)",
+    "fr": "Office fédéral de la statistique (OFS)",
+    "it": "Ufficio federale di statistica (UST)"
+  },
+  "source_url": "https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html",
+  "dataset_frequency": "M",
+  "units": {
+    "all": {
+      "en": "Index (2025 = 100)",
+      "de": "Index (2025 = 100)",
+      "fr": "Indice (2025 = 100)",
+      "it": "Indice (2025 = 100)"
+    }
+  },
+  "aggregate": {
+    "all": "mean"
+  },
+  "dim_order": [
+    "sector",
+    "sa_type",
+    "sa_provider"
+  ],
+  "hierarchy": {
+    "sector": {
+      "abat": {},
+      "abr": {},
+      "acab": {},
+      "acap": {},
+      "acc": {},
+      "accaf": {},
+      "acci1": {},
+      "acci2": {},
+      "aceaf": {},
+      "acfasp": {},
+      "achc": {},
+      "achr": {},
+      "aciwab": {},
+      "aciwap": {},
+      "aciwcaf": {},
+      "aciwhc": {},
+      "aciwhr": {},
+      "aciwpp": {},
+      "aciwtp": {},
+      "acpp": {},
+      "actp": {},
+      "acuavc": {},
+      "ada": {},
+      "ads": {},
+      "afbr": {},
+      "afgap": {},
+      "alb": {},
+      "aoc": {},
+      "apaie": {},
+      "apfmadl": {},
+      "arntp": {},
+      "art": {},
+      "atsf": {},
+      "bab": {},
+      "baf": {},
+      "bav": {},
+      "bbc": {},
+      "bbf": {},
+      "bcm": {},
+      "bcy": {},
+      "bdf": {},
+      "bef": {},
+      "ber": {},
+      "bfacp": {},
+      "bheascnt": {},
+      "bicy": {},
+      "birac": {},
+      "bisr": {},
+      "blaa": {},
+      "bnas": {},
+      "bnn": {},
+      "bns": {},
+      "bpac": {},
+      "bpaobp": {},
+      "brc": {},
+      "brd": {},
+      "brp": {},
+      "brrs": {},
+      "brrt": {},
+      "bscl": {},
+      "btt": {},
+      "caca": {},
+      "cacgrll": {},
+      "cacp": {},
+      "caf": {},
+      "caoa": {},
+      "caos": {},
+      "cars": {},
+      "cat": {},
+      "cawm": {},
+      "ccsadm": {},
+      "ced": {},
+      "cfhwe": {},
+      "cfr": {},
+      "cfs": {},
+      "cfwp": {},
+      "cgr": {},
+      "chcl": {},
+      "chf": {},
+      "chldcr": {},
+      "chs": {},
+      "cla": {},
+      "clde": {},
+      "clt": {},
+      "cmb": {},
+      "cmm": {},
+      "cmpv": {},
+      "cmr": {},
+      "cms": {},
+      "cnm": {},
+      "cnndfsapr": {},
+      "cnt": {},
+      "coab": {},
+      "coffamc": {},
+      "cri": {},
+      "crm": {},
+      "crps": {},
+      "crsp": {},
+      "crsrv": {},
+      "cst": {},
+      "ctac": {},
+      "ctcanb": {},
+      "ctf": {},
+      "ctl": {},
+      "cts": {},
+      "cvapp": {},
+      "dacp": {},
+      "damd": {},
+      "darog": {},
+      "datvam": {},
+      "diagp": {},
+      "dlch": {},
+      "dmp": {},
+      "dnap": {},
+      "dnp": {},
+      "dns": {},
+      "dph": {},
+      "drb": {},
+      "drc": {},
+      "drdfr": {},
+      "dsh": {},
+      "dshw": {},
+      "dsl": {},
+      "dvam": {},
+      "eafpc": {},
+      "eaoafhag": {},
+      "ectiii": {},
+      "ectiv": {},
+      "ectvii": {},
+      "edc": {},
+      "efpcs": {},
+      "egg": {},
+      "eis": {},
+      "elbi": {},
+      "elc": {},
+      "elcti": {},
+      "elctii": {},
+      "elctv": {},
+      "elctvi": {},
+      "enr": {},
+      "faalrg": {},
+      "faeo": {},
+      "faf": {},
+      "fanb": {},
+      "fas": {},
+      "favj": {},
+      "ffab": {},
+      "ffafc": {},
+      "fff": {},
+      "ffm": {},
+      "ffnb": {},
+      "ffsa": {},
+      "ficbo": {},
+      "ficboaob": {},
+      "fir": {},
+      "flr": {},
+      "fns": {},
+      "fod": {},
+      "frrw": {},
+      "frshfr": {},
+      "frshfs": {},
+      "frshvam": {},
+      "frt": {},
+      "frv": {},
+      "frwd": {},
+      "frznfr": {},
+      "frznfs": {},
+      "fsamc": {},
+      "fsf": {},
+      "fsfassr": {},
+      "ftw": {},
+      "ful": {},
+      "funs": {},
+      "fvpam": {},
+      "fww": {},
+      "gacl": {},
+      "gas": {},
+      "gat": {},
+      "gcaeg": {},
+      "gctiii": {},
+      "gctiv": {},
+      "gctv": {},
+      "gds": {},
+      "gfc": {},
+      "gfrhm": {},
+      "goc": {},
+      "gra": {},
+      "grf": {},
+      "grlc": {},
+      "grljck": {},
+      "grlknt": {},
+      "grp": {},
+      "gsctii": {},
+      "gtah": {},
+      "gtahu": {},
+      "haaotd": {},
+      "habss": {},
+      "hae": {},
+      "hahrmd": {},
+      "haird": {},
+      "hasc": {},
+      "hcs": {},
+      "hcs1": {},
+      "heascnt": {},
+      "hgas": {},
+      "hhi": {},
+      "hlt": {},
+      "hmasst": {},
+      "hms": {},
+      "hodor": {},
+      "hpmt": {},
+      "hrp": {},
+      "hrri": {},
+      "hsf": {},
+      "hshldap": {},
+      "hshldar": {},
+      "hsl": {},
+      "hst": {},
+      "htl": {},
+      "htlaspa": {},
+      "hto": {},
+      "hvaue": {},
+      "iace": {},
+      "icc": {},
+      "ifsrv": {},
+      "ihs": {},
+      "imp": {},
+      "imprnt": {},
+      "ims": {},
+      "ins": {},
+      "ipdaa": {},
+      "iph": {},
+      "irfod": {},
+      "irfomr": {},
+      "jah": {},
+      "jaw": {},
+      "jcktb": {},
+      "jfm": {},
+      "jwl": {},
+      "kadrf": {},
+      "kntwb": {},
+      "ktcha": {},
+      "ktu": {},
+      "laa": {},
+      "lasv": {},
+      "lba": {},
+      "lfm": {},
+      "lfv": {},
+      "lgf": {},
+      "lgrbrb": {},
+      "licirh": {},
+      "lmb": {},
+      "lrahof": {},
+      "lsc": {},
+      "lttp": {},
+      "mabc": {},
+      "mac": {},
+      "mach": {},
+      "maef": {},
+      "mamp": {},
+      "maropv": {},
+      "mbc": {},
+      "mcae": {},
+      "mdc": {},
+      "mdcarmd": {},
+      "mdp": {},
+      "mds": {},
+      "mdsap": {},
+      "mdspas": {},
+      "mfdrp": {},
+      "mfof": {},
+      "mgzn": {},
+      "mha": {},
+      "mheascnt": {},
+      "misr": {},
+      "mnc": {},
+      "mnf": {},
+      "mnk": {},
+      "mnssh": {},
+      "mnsst": {},
+      "mnt": {},
+      "mnu": {},
+      "mpfpu": {},
+      "mpr": {},
+      "mrsl": {},
+      "msals": {},
+      "msi": {},
+      "mtfdag": {},
+      "mtirac": {},
+      "mtr": {},
+      "muzo": {},
+      "mwasd": {},
+      "nafpc": {},
+      "nbr": {},
+      "nkahe": {},
+      "nmw": {},
+      "nnb": {},
+      "nnd": {},
+      "ntfhag": {},
+      "nts": {},
+      "nwc": {},
+      "nwpp": {},
+      "oal": {},
+      "oarnt": {},
+      "oboo": {},
+      "obp": {},
+      "oca": {},
+      "ocp": {},
+      "odfrac": {},
+      "oeo": {},
+      "FALSE": {},
+      "ofp": {},
+      "ogas": {},
+      "ohe": {},
+      "olo": {},
+      "omf": {},
+      "oms": {},
+      "omsih": {},
+      "opm": {},
+      "opvs": {},
+      "osha": {},
+      "otf": {},
+      "otps": {},
+      "otrf": {},
+      "ott": {},
+      "ovam": {},
+      "pacc": {},
+      "paf": {},
+      "pafph": {},
+      "papp": {},
+      "paps": {},
+      "paq": {},
+      "parm": {},
+      "pbm": {},
+      "pbs": {},
+      "pcaa": {},
+      "pce": {},
+      "pceaoi": {},
+      "pch": {},
+      "ped": {},
+      "pfagp": {},
+      "pffcam": {},
+      "pfpc": {},
+      "pha": {},
+      "phi": {},
+      "phs": {},
+      "phy": {},
+      "pli": {},
+      "pls": {},
+      "plt": {},
+      "pmf": {},
+      "pocmb": {},
+      "pormrtc": {},
+      "prcp": {},
+      "pre": {},
+      "prk": {},
+      "prkf": {},
+      "prkfalps": {},
+      "prp": {},
+      "prs1": {},
+      "prsf": {},
+      "prsnlcm": {},
+      "prsnlcr": {},
+      "prv": {},
+      "pss": {},
+      "pst": {},
+      "pta": {},
+      "ptcs": {},
+      "ptds": {},
+      "ptp": {},
+      "ptr": {},
+      "pts": {},
+      "ptsbrar": {},
+      "ptt": {},
+      "racs": {},
+      "raf": {},
+      "rah": {},
+      "rahmwasd": {},
+      "ratrai": {},
+      "rbaov": {},
+      "rcac": {},
+      "rcaff": {},
+      "rcm": {},
+      "rdm": {},
+      "rdr": {},
+      "rdw": {},
+      "recbo": {},
+      "rhm": {},
+      "ric": {},
+      "rnt": {},
+      "rogps": {},
+      "romr": {},
+      "ropac": {},
+      "rpps": {},
+      "rsac": {},
+      "rtv": {},
+      "sac": {},
+      "sace": {},
+      "sacg": {},
+      "saeb": {},
+      "saed": {},
+      "saer": {},
+      "safb": {},
+      "saffp": {},
+      "safpd": {},
+      "sala": {},
+      "samp": {},
+      "saromv": {},
+      "sars": {},
+      "sbg": {},
+      "scc": {},
+      "schsak": {},
+      "sdac": {},
+      "seafd": {},
+      "sed": {},
+      "seha": {},
+      "seq": {},
+      "sfd": {},
+      "sfdpam": {},
+      "sfog": {},
+      "sfwse": {},
+      "sgr": {},
+      "shr": {},
+      "sjhcaps": {},
+      "smd": {},
+      "sms": {},
+      "soad": {},
+      "sol": {},
+      "spa": {},
+      "spaa": {},
+      "spbr": {},
+      "spe": {},
+      "spf": {},
+      "spoar": {},
+      "spp": {},
+      "sprt": {},
+      "sprtsbr": {},
+      "sprtsrt": {},
+      "spw": {},
+      "srs": {},
+      "srv": {},
+      "srw": {},
+      "ssa": {},
+      "ssg": {},
+      "ssr": {},
+      "stf": {},
+      "stv": {},
+      "sww": {},
+      "taa": {},
+      "tac": {},
+      "tase": {},
+      "tax": {},
+      "tbc": {},
+      "tbr": {},
+      "teaa": {},
+      "teaafhag": {},
+      "tfhag": {},
+      "tfpvads": {},
+      "thd": {},
+      "tlcs": {},
+      "tle": {},
+      "tlvs": {},
+      "toys": {},
+      "traskg": {},
+      "trf": {},
+      "trn": {},
+      "trs": {},
+      "trsrb": {},
+      "trt": {},
+      "tsaaa": {},
+      "tsfg": {},
+      "ttl": {},
+      "uamocmb": {},
+      "undb": {},
+      "undo": {},
+      "vco": {},
+      "veac": {},
+      "vel": {},
+      "vmap": {},
+      "vppp": {},
+      "vsfp": {},
+      "wadm": {},
+      "wadr": {},
+      "wagc": {},
+      "wawco": {},
+      "wcaj": {},
+      "wco": {},
+      "wdl": {},
+      "wdp": {},
+      "whm": {},
+      "whw": {},
+      "win": {},
+      "wmb": {},
+      "wmc": {},
+      "wmdad": {},
+      "wmf": {},
+      "wmh": {},
+      "wmj": {},
+      "wmt": {},
+      "wmu": {},
+      "wnr": {},
+      "wns": {},
+      "wsad": {},
+      "wse": {},
+      "wtc": {},
+      "ygh": {}
+    },
+    "sa_type": {
+      "d11": {},
+      "d12": {}
+    },
+    "sa_provider": {
+      "kof": {}
+    }
+  },
+  "labels": {
+    "dimnames": {
+      "sector": {
+        "en": "Sector",
+        "de": "Sektor",
+        "fr": "Secteur",
+        "it": "Settore"
+      },
+      "sa_type": {
+        "en": "Seasonal adjustment type"
+      },
+      "sa_provider": {
+        "en": "Seasonal adjustment provider"
+      }
+    },
+    "sector": {
+      "abat": {
+        "en": "Alcoholic beverages and tobacco"
+      },
+      "abr": {
+        "en": "Alcoholic beverages (retail)"
+      },
+      "acab": {
+        "en": "Additional classifications - Alcoholic beverages"
+      },
+      "acap": {
+        "en": "Additional classifications - Administered prices"
+      },
+      "acc": {
+        "en": "Accommodation"
+      },
+      "accaf": {
+        "en": "Additional classifications - Clothing and footwear"
+      },
+      "acci1": {
+        "en": "Additional classifications - Core inflation 1"
+      },
+      "acci2": {
+        "en": "Additional classifications - Core inflation 2"
+      },
+      "aceaf": {
+        "en": "Additional classifications - Energy and fuels"
+      },
+      "acfasp": {
+        "en": "Additional classifications - Fresh and seasonal products"
+      },
+      "achc": {
+        "en": "Additional classifications - Health care"
+      },
+      "achr": {
+        "en": "Additional classifications - Housing rental"
+      },
+      "aciwab": {
+        "en": "Additional classifications - Index without alcoholic beverages"
+      },
+      "aciwap": {
+        "en": "Additional classifications - Index without administered prices"
+      },
+      "aciwcaf": {
+        "en": "Additional classifications - Index without clothing and footwear"
+      },
+      "aciwhc": {
+        "en": "Additional classifications - Index without health care"
+      },
+      "aciwhr": {
+        "en": "Additional classifications - Index without housing rental"
+      },
+      "aciwpp": {
+        "en": "Additional classifications - Index without petroleum products"
+      },
+      "aciwtp": {
+        "en": "Additional classifications - Index without tobacco products"
+      },
+      "acpp": {
+        "en": "Additional classifications - Petroleum products"
+      },
+      "actp": {
+        "en": "Additional classifications - Tobacco products"
+      },
+      "acuavc": {
+        "en": "Air conditioning units"
+      },
+      "ada": {
+        "en": "Audiovisual equipment"
+      },
+      "ads": {
+        "en": "Advertisements"
+      },
+      "afbr": {
+        "en": "Alcohol-free beers"
+      },
+      "afgap": {
+        "en": "Articles for gardens and pets"
+      },
+      "alb": {
+        "en": "Alcoholic beverages"
+      },
+      "aoc": {
+        "en": "Articles of clothing"
+      },
+      "apaie": {
+        "en": "Consumer durables for leisure"
+      },
+      "apfmadl": {
+        "en": "Assistive products for mobility and daily living"
+      },
+      "arntp": {
+        "en": "Actual rent paid"
+      },
+      "art": {
+        "en": "Air transport"
+      },
+      "atsf": {
+        "en": "Admission to sport facilities"
+      },
+      "bab": {
+        "en": "Books"
+      },
+      "baf": {
+        "en": "Bank account fees"
+      },
+      "bav": {
+        "en": "Beef and veal"
+      },
+      "bbc": {
+        "en": "Babies' clothing"
+      },
+      "bbf": {
+        "en": "Baby food"
+      },
+      "bcm": {
+        "en": "Bicycle maintenance"
+      },
+      "bcy": {
+        "en": "Bicycles and electric bicycles"
+      },
+      "bdf": {
+        "en": "Bedroom furniture"
+      },
+      "bef": {
+        "en": "Beef"
+      },
+      "ber": {
+        "en": "Beer"
+      },
+      "bfacp": {
+        "en": "Bread, flour and cereal products"
+      },
+      "bheascnt": {
+        "en": "Bevande nelle mense delle scuole superiori"
+      },
+      "bicy": {
+        "en": "Bicycles"
+      },
+      "birac": {
+        "en": "Beverages in restaurants and cafés"
+      },
+      "bisr": {
+        "en": "Drinks in staff restaurants"
+      },
+      "blaa": {
+        "en": "Bed linen and accessories"
+      },
+      "bnas": {
+        "en": "Books, Newspapers and stationery"
+      },
+      "bnn": {
+        "en": "Bananas"
+      },
+      "bns": {
+        "en": "Beans"
+      },
+      "bpac": {
+        "en": "Beauty products and cosmetics"
+      },
+      "bpaobp": {
+        "en": "Bread, pastries and other baked products"
+      },
+      "brc": {
+        "en": "Breakfast cereals"
+      },
+      "brd": {
+        "en": "Bread"
+      },
+      "brp": {
+        "en": "Biscuit/rusk products"
+      },
+      "brrs": {
+        "en": "Berries"
+      },
+      "brrt": {
+        "en": "Beer (retail)"
+      },
+      "bscl": {
+        "en": "Boys' clothing"
+      },
+      "btt": {
+        "en": "Butter"
+      },
+      "caca": {
+        "en": "Curtains and curtain accessories"
+      },
+      "cacgrll": {
+        "en": "Cigars and cigarillos"
+      },
+      "cacp": {
+        "en": "Cocoa and chocolate powder"
+      },
+      "caf": {
+        "en": "Clothing and footwear"
+      },
+      "caoa": {
+        "en": "Camping and outdoor articles"
+      },
+      "caos": {
+        "en": "Culture services"
+      },
+      "cars": {
+        "en": "Cars"
+      },
+      "cat": {
+        "en": "Coffee and tea"
+      },
+      "cawm": {
+        "en": "Cleaning and washing materials"
+      },
+      "ccsadm": {
+        "en": "Cold cuts, salted and dried meat"
+      },
+      "ced": {
+        "en": "Continuing education"
+      },
+      "cfhwe": {
+        "en": "Charges for household waste elimination"
+      },
+      "cfr": {
+        "en": "Coffee (retail)"
+      },
+      "cfs": {
+        "en": "Charges for wastewater treatment"
+      },
+      "cfwp": {
+        "en": "Charges for water provision"
+      },
+      "cgr": {
+        "en": "Cigarettes"
+      },
+      "chcl": {
+        "en": "Chocolate"
+      },
+      "chf": {
+        "en": "Children's footwear"
+      },
+      "chldcr": {
+        "en": "Childcare"
+      },
+      "chs": {
+        "en": "Cheese"
+      },
+      "cla": {
+        "en": "Cleaning articles"
+      },
+      "clde": {
+        "en": "Cleaning equipment"
+      },
+      "clt": {
+        "en": "Clothing"
+      },
+      "cmb": {
+        "en": "Cars, motorcycles, bicycles"
+      },
+      "cmm": {
+        "en": "Information and communication"
+      },
+      "cmpv": {
+        "en": "Camper vans"
+      },
+      "cmr": {
+        "en": "Cameras"
+      },
+      "cms": {
+        "en": "Software for computers"
+      },
+      "cnm": {
+        "en": "Cinema"
+      },
+      "cnndfsapr": {
+        "en": "Canned fish and fish preparations"
+      },
+      "cnt": {
+        "en": "Canteens"
+      },
+      "coab": {
+        "en": "Cookers and ovens"
+      },
+      "coffamc": {
+        "en": "Combined offers for telecommunication"
+      },
+      "cri": {
+        "en": "Motor vehicle insurance"
+      },
+      "crm": {
+        "en": "Cream"
+      },
+      "crps": {
+        "en": "Carpentry services"
+      },
+      "crsp": {
+        "en": "Crisps"
+      },
+      "crsrv": {
+        "en": "Care services"
+      },
+      "cst": {
+        "en": "Cosmetic treatment"
+      },
+      "ctac": {
+        "en": "Cinema, theatre and concerts"
+      },
+      "ctcanb": {
+        "en": "Coffee, tea, cocoa and nutritional beverages"
+      },
+      "ctf": {
+        "en": "Citrus fruit"
+      },
+      "ctl": {
+        "en": "Cutlery"
+      },
+      "cts": {
+        "en": "Catering services"
+      },
+      "cvapp": {
+        "en": "Canned vegetables and potato-based products"
+      },
+      "dacp": {
+        "en": "Detergents and cleaning products"
+      },
+      "damd": {
+        "en": "Drink and milk desserts"
+      },
+      "darog": {
+        "en": "Dry-cleaning and repair of garments"
+      },
+      "datvam": {
+        "en": "Dried and tinned vegetables and mushrooms"
+      },
+      "diagp": {
+        "en": "Diagnostic products"
+      },
+      "dlch": {
+        "en": "Delivery charges"
+      },
+      "dmp": {
+        "en": "Domestic products"
+      },
+      "dnap": {
+        "en": "Newspapers and magazines"
+      },
+      "dnp": {
+        "en": "Dental-care products"
+      },
+      "dns": {
+        "en": "Dental services"
+      },
+      "dph": {
+        "en": "Domestic package holidays"
+      },
+      "drb": {
+        "en": "Durables"
+      },
+      "drc": {
+        "en": "Dry cleaning"
+      },
+      "drdfr": {
+        "en": "Dried fruit"
+      },
+      "dsh": {
+        "en": "District heating"
+      },
+      "dshw": {
+        "en": "Dishwasher"
+      },
+      "dsl": {
+        "en": "Diesel"
+      },
+      "dvam": {
+        "en": "Dried vegetables and mushrooms"
+      },
+      "eafpc": {
+        "en": "Electric body care appliances"
+      },
+      "eaoafhag": {
+        "en": "Equipment and other accessories for house and garden"
+      },
+      "ectiii": {
+        "en": "Electricity, consumption type 3"
+      },
+      "ectiv": {
+        "en": "Electricity, consumption type 4"
+      },
+      "ectvii": {
+        "en": "Electricity, consumption type 7"
+      },
+      "edc": {
+        "en": "Education"
+      },
+      "efpcs": {
+        "en": "Electricity from public charging stations"
+      },
+      "egg": {
+        "en": "Eggs"
+      },
+      "eis": {
+        "en": "Electric installlation services"
+      },
+      "elbi": {
+        "en": "Electric bicycles"
+      },
+      "elc": {
+        "en": "Electricity"
+      },
+      "elcti": {
+        "en": "Electricity, consumption type1"
+      },
+      "elctii": {
+        "en": "Electricity, consumption type 2"
+      },
+      "elctv": {
+        "en": "Electricity, consumption type 5"
+      },
+      "elctvi": {
+        "en": "Electricity, consumption type 6"
+      },
+      "enr": {
+        "en": "Energy"
+      },
+      "faalrg": {
+        "en": "Furnishing accessories and loose rugs"
+      },
+      "faeo": {
+        "en": "Fats and edible oils"
+      },
+      "faf": {
+        "en": "Furniture and furnishings"
+      },
+      "fanb": {
+        "en": "Food and non-alcoholic beverages"
+      },
+      "fas": {
+        "en": "Fish and seafood"
+      },
+      "favj": {
+        "en": "Fruit and vegetable juices"
+      },
+      "ffab": {
+        "en": "Fast food alcoholic beverages"
+      },
+      "ffafc": {
+        "en": "Furniture, furnishings and lose carpets"
+      },
+      "fff": {
+        "en": "Fisch, fresh and frozen"
+      },
+      "ffm": {
+        "en": "Fast food meals"
+      },
+      "ffnb": {
+        "en": "Fast food non-alcoholic beverages"
+      },
+      "ffsa": {
+        "en": "Fees for securities accounts"
+      },
+      "ficbo": {
+        "en": "Fiction books"
+      },
+      "ficboaob": {
+        "en": "Fiction books and other books"
+      },
+      "fir": {
+        "en": "Footwear including repairs"
+      },
+      "flr": {
+        "en": "Flour"
+      },
+      "fns": {
+        "en": "Financial services"
+      },
+      "fod": {
+        "en": "Food"
+      },
+      "frrw": {
+        "en": "Foreign red wine"
+      },
+      "frshfr": {
+        "en": "Fresh fruit"
+      },
+      "frshfs": {
+        "en": "Fresh fish"
+      },
+      "frshvam": {
+        "en": "Fresh vegetables and mushrooms"
+      },
+      "frt": {
+        "en": "Fruit"
+      },
+      "frv": {
+        "en": "Fruiting vegetables"
+      },
+      "frwd": {
+        "en": "Firewood"
+      },
+      "frznfr": {
+        "en": "Frozen fruit"
+      },
+      "frznfs": {
+        "en": "Frozen fish"
+      },
+      "fsamc": {
+        "en": "Fresh, soft and melted cheese"
+      },
+      "fsf": {
+        "en": "Fast food"
+      },
+      "fsfassr": {
+        "en": "Fast food and self-service restaurants"
+      },
+      "ftw": {
+        "en": "Footwear"
+      },
+      "ful": {
+        "en": "Fuel"
+      },
+      "funs": {
+        "en": "Funeral services"
+      },
+      "fvpam": {
+        "en": "Fruit, vegetables, potatoes and mushrooms"
+      },
+      "fww": {
+        "en": "Foreign white wine"
+      },
+      "gacl": {
+        "en": "Glasses and contact lenses"
+      },
+      "gas": {
+        "en": "Gas"
+      },
+      "gat": {
+        "en": "Glassware and tableware"
+      },
+      "gcaeg": {
+        "en": "Game consoles and electronic games"
+      },
+      "gctiii": {
+        "en": "Gas, consumption type 3"
+      },
+      "gctiv": {
+        "en": "Gas, consumption type 4"
+      },
+      "gctv": {
+        "en": "Gas, consumption type 5"
+      },
+      "gds": {
+        "en": "Goods"
+      },
+      "gfc": {
+        "en": "Goods for culture"
+      },
+      "gfrhm": {
+        "en": "Goods for routine household maintenance"
+      },
+      "goc": {
+        "en": "Games of chance"
+      },
+      "gra": {
+        "en": "Garment alterations"
+      },
+      "grf": {
+        "en": "Garden furniture"
+      },
+      "grlc": {
+        "en": "Girls' clothing"
+      },
+      "grljck": {
+        "en": "Girls' jackets"
+      },
+      "grlknt": {
+        "en": "Girls' knitwear"
+      },
+      "grp": {
+        "en": "Garden products"
+      },
+      "gsctii": {
+        "en": "Gas, consumption type 2"
+      },
+      "gtah": {
+        "en": "Games, toys and hobbies"
+      },
+      "gtahu": {
+        "en": "Glassware, tableware and other household utensils"
+      },
+      "haaotd": {
+        "en": "Hearing aids"
+      },
+      "habss": {
+        "en": "Hairdresser and beauty salon services"
+      },
+      "hae": {
+        "en": "Housing and energy"
+      },
+      "hahrmd": {
+        "en": "Herbal and homeopathic remedies"
+      },
+      "haird": {
+        "en": "Hairdressers"
+      },
+      "hasc": {
+        "en": "Hard and semi-hard cheese"
+      },
+      "hcs": {
+        "en": "Household cleaning services"
+      },
+      "hcs1": {
+        "en": "Medical care services Spitex"
+      },
+      "heascnt": {
+        "en": "Higher education and school canteens"
+      },
+      "hgas": {
+        "en": "Household goods and services"
+      },
+      "hhi": {
+        "en": "Household insurance"
+      },
+      "hlt": {
+        "en": "Healthcare"
+      },
+      "hmasst": {
+        "en": "Home assistance (Spitex)"
+      },
+      "hms": {
+        "en": "House maintenance services"
+      },
+      "hodor": {
+        "en": "Official documents"
+      },
+      "hpmt": {
+        "en": "Car rental and car sharing"
+      },
+      "hrp": {
+        "en": "Hair-care products"
+      },
+      "hrri": {
+        "en": "Housing rentals (Rental index)"
+      },
+      "hsf": {
+        "en": "Household furniture"
+      },
+      "hshldap": {
+        "en": "Household appliances"
+      },
+      "hshldar": {
+        "en": "Household articles"
+      },
+      "hsl": {
+        "en": "Table and bathroom textiles"
+      },
+      "hst": {
+        "en": "Household textiles"
+      },
+      "htl": {
+        "en": "Hotels"
+      },
+      "htlaspa": {
+        "en": "Hotel and parahotel accomodation"
+      },
+      "hto": {
+        "en": "Heating oil"
+      },
+      "hvaue": {
+        "en": "Higher vocational and university education"
+      },
+      "iace": {
+        "en": "Information and communication equipment"
+      },
+      "icc": {
+        "en": "Ice-cream"
+      },
+      "ifsrv": {
+        "en": "Insurance and financial services"
+      },
+      "ihs": {
+        "en": "Inpatient hospital services"
+      },
+      "imp": {
+        "en": "Imported products"
+      },
+      "imprnt": {
+        "en": "Imputed rent"
+      },
+      "ims": {
+        "en": "Inpatient medical services"
+      },
+      "ins": {
+        "en": "Insurance"
+      },
+      "ipdaa": {
+        "en": "IT peripherical devices and accessories"
+      },
+      "iph": {
+        "en": "International package holidays"
+      },
+      "irfod": {
+        "en": "Imputed rent for owner-occupied dwellings"
+      },
+      "irfomr": {
+        "en": "Imputed rental for owner-occupied main residence"
+      },
+      "jah": {
+        "en": "Jam and honey"
+      },
+      "jaw": {
+        "en": "Jewellery and watches"
+      },
+      "jcktb": {
+        "en": "Jackets, boys"
+      },
+      "jfm": {
+        "en": "Jackets for men"
+      },
+      "jwl": {
+        "en": "Jewellery"
+      },
+      "kadrf": {
+        "en": "Kitchen and dining room furniture"
+      },
+      "kntwb": {
+        "en": "Knitwear, boys"
+      },
+      "ktcha": {
+        "en": "Kitchen appliances"
+      },
+      "ktu": {
+        "en": "Kitchen utensils"
+      },
+      "laa": {
+        "en": "Liqueurs and aperitifs"
+      },
+      "lasv": {
+        "en": "Leafy and stem vegetables"
+      },
+      "lba": {
+        "en": "Medical laboratory services"
+      },
+      "lfm": {
+        "en": "Low fat milk"
+      },
+      "lfv": {
+        "en": "Leafy vegetables"
+      },
+      "lgf": {
+        "en": "Lighting equipment"
+      },
+      "lgrbrb": {
+        "en": "Lagerbeer, blonde"
+      },
+      "licirh": {
+        "en": "Long-term inpatient care in retirement homes"
+      },
+      "lmb": {
+        "en": "Lamb"
+      },
+      "lrahof": {
+        "en": "Living room and home office furniture"
+      },
+      "lsc": {
+        "en": "Leisure-time courses"
+      },
+      "lttp": {
+        "en": "Letter post"
+      },
+      "mabc": {
+        "en": "Men's and boys' clothing"
+      },
+      "mac": {
+        "en": "Maintenance and caretaking"
+      },
+      "mach": {
+        "en": "Hairdresser for men and children"
+      },
+      "maef": {
+        "en": "Margarine and edible fats"
+      },
+      "mamp": {
+        "en": "Medicines and medical products"
+      },
+      "maropv": {
+        "en": "Maintenance and repair of private vehicles"
+      },
+      "mbc": {
+        "en": "Mobile network communication"
+      },
+      "mcae": {
+        "en": "Milk, cheese and eggs"
+      },
+      "mdc": {
+        "en": "Medicines"
+      },
+      "mdcarmd": {
+        "en": "Medicines and remedies"
+      },
+      "mdp": {
+        "en": "Medical products"
+      },
+      "mds": {
+        "en": "Medical services"
+      },
+      "mdsap": {
+        "en": "Medical services and physiotherapy"
+      },
+      "mdspas": {
+        "en": "Medical services, physiotherapy and Spitex"
+      },
+      "mfdrp": {
+        "en": "Material for dwelling repairs"
+      },
+      "mfof": {
+        "en": "Meat, fresh or frozen"
+      },
+      "mgzn": {
+        "en": "Magazines"
+      },
+      "mha": {
+        "en": "Major household appliances"
+      },
+      "mheascnt": {
+        "en": "Meals in higher education and school canteens"
+      },
+      "misr": {
+        "en": "Meals in staff restaurants"
+      },
+      "mnc": {
+        "en": "Men's clothing"
+      },
+      "mnf": {
+        "en": "Men's footwear"
+      },
+      "mnk": {
+        "en": "Men's knitwear"
+      },
+      "mnssh": {
+        "en": "Men's shirts"
+      },
+      "mnsst": {
+        "en": "Men's suits"
+      },
+      "mnt": {
+        "en": "Men's trousers"
+      },
+      "mnu": {
+        "en": "Men's underwear"
+      },
+      "mpfpu": {
+        "en": "Medical products for personal use"
+      },
+      "mpr": {
+        "en": "Meat, meat products"
+      },
+      "mrsl": {
+        "en": "Mountain railways, skilifts"
+      },
+      "msals": {
+        "en": "Medical services at local surgery"
+      },
+      "msi": {
+        "en": "Musical instruments"
+      },
+      "mtfdag": {
+        "en": "Motorized tools for DIY and garden"
+      },
+      "mtirac": {
+        "en": "Meals taken in restaurants and cafés"
+      },
+      "mtr": {
+        "en": "Motorcycles"
+      },
+      "muzo": {
+        "en": "Museums and zoological gardens"
+      },
+      "mwasd": {
+        "en": "Mineral waters and soft drinks"
+      },
+      "nafpc": {
+        "en": "Non-electrical appliances for personal care"
+      },
+      "nbr": {
+        "en": "Non-alcoholic beverages (retail)"
+      },
+      "nkahe": {
+        "en": "Non-electric kitchen and household equipment"
+      },
+      "nmw": {
+        "en": "Natural mineral water"
+      },
+      "nnb": {
+        "en": "Non-alcoholic beverages"
+      },
+      "nnd": {
+        "en": "Non durables"
+      },
+      "ntfhag": {
+        "en": "Non-motorized tools for house and garden"
+      },
+      "nts": {
+        "en": "Nuts"
+      },
+      "nwc": {
+        "en": "New cars"
+      },
+      "nwpp": {
+        "en": "Newspapers"
+      },
+      "oal": {
+        "en": "Onions and leeks"
+      },
+      "oarnt": {
+        "en": "Other actual rentals"
+      },
+      "oboo": {
+        "en": "Other books"
+      },
+      "obp": {
+        "en": "Other bakery products"
+      },
+      "oca": {
+        "en": "Other clothing items"
+      },
+      "ocp": {
+        "en": "Other cereal products"
+      },
+      "odfrac": {
+        "en": "Other major durables for leisure"
+      },
+      "oeo": {
+        "en": "Other edible oils"
+      },
+      "FALSE": {
+        "en": "Offal"
+      },
+      "ofp": {
+        "en": "Other food products"
+      },
+      "ogas": {
+        "en": "Other goods and services"
+      },
+      "ohe": {
+        "en": "Other household equipment"
+      },
+      "olo": {
+        "en": "Olive oil"
+      },
+      "omf": {
+        "en": "Other meat, fresh"
+      },
+      "oms": {
+        "en": "Other medical services"
+      },
+      "omsih": {
+        "en": "Outpatient medical services in hospitals"
+      },
+      "opm": {
+        "en": "Other printed matter"
+      },
+      "opvs": {
+        "en": "Other private vehicle services"
+      },
+      "osha": {
+        "en": "Other small household appliances"
+      },
+      "otf": {
+        "en": "Other fruit"
+      },
+      "otps": {
+        "en": "Outpatient healthcare services"
+      },
+      "otrf": {
+        "en": "Other tropical fruits"
+      },
+      "ott": {
+        "en": "Other tobaccos"
+      },
+      "ovam": {
+        "en": "Other vegetables and mushrooms"
+      },
+      "pacc": {
+        "en": "Photo accessories"
+      },
+      "paf": {
+        "en": "Plants and flowers"
+      },
+      "pafph": {
+        "en": "Paper articles for personal hygiene"
+      },
+      "papp": {
+        "en": "Prevention and protection products"
+      },
+      "paps": {
+        "en": "Painting and plastering services"
+      },
+      "paq": {
+        "en": "Pizzas and quiches"
+      },
+      "parm": {
+        "en": "Pizzas and ready-made meals"
+      },
+      "pbm": {
+        "en": "Plant-based milk"
+      },
+      "pbs": {
+        "en": "Public Services"
+      },
+      "pcaa": {
+        "en": "Personal computers and accessories"
+      },
+      "pce": {
+        "en": "Post-compulsory education"
+      },
+      "pceaoi": {
+        "en": "Photographic and video equipment"
+      },
+      "pch": {
+        "en": "Package holidays"
+      },
+      "ped": {
+        "en": "Primary education"
+      },
+      "pfagp": {
+        "en": "Plants, flowers and garden products"
+      },
+      "pffcam": {
+        "en": "Products for face care and make-up"
+      },
+      "pfpc": {
+        "en": "Products for personal care"
+      },
+      "pha": {
+        "en": "Personal hygiene articles"
+      },
+      "phi": {
+        "en": "Private health insurance"
+      },
+      "phs": {
+        "en": "Photographic services"
+      },
+      "phy": {
+        "en": "Physiotherapy"
+      },
+      "pli": {
+        "en": "Private liability insurance and legal protection"
+      },
+      "pls": {
+        "en": "Plumbing services"
+      },
+      "plt": {
+        "en": "Poultry"
+      },
+      "pmf": {
+        "en": "Pome fruit"
+      },
+      "pocmb": {
+        "en": "Purchase of cars motorcycles, bicycles"
+      },
+      "pormrtc": {
+        "en": "Preparations of raw meat ready to cook"
+      },
+      "prcp": {
+        "en": "Parcel post"
+      },
+      "pre": {
+        "en": "Personal effects"
+      },
+      "prk": {
+        "en": "Pork"
+      },
+      "prkf": {
+        "en": "Parking fees"
+      },
+      "prkfalps": {
+        "en": "Parking fees and long-term parking spaces"
+      },
+      "prp": {
+        "en": "Pet related products"
+      },
+      "prs1": {
+        "en": "Private Services"
+      },
+      "prsf": {
+        "en": "Preserved fruit"
+      },
+      "prsnlcm": {
+        "en": "Personal computers"
+      },
+      "prsnlcr": {
+        "en": "Personal care"
+      },
+      "prv": {
+        "en": "Preserved vegetables"
+      },
+      "pss": {
+        "en": "Postal services"
+      },
+      "pst": {
+        "en": "Pasta"
+      },
+      "pta": {
+        "en": "Public transport abroad"
+      },
+      "ptcs": {
+        "en": "Intermodal passenger transport"
+      },
+      "ptds": {
+        "en": "Domestic long-distance public transport"
+      },
+      "ptp": {
+        "en": "Potato products"
+      },
+      "ptr": {
+        "en": "Petrol"
+      },
+      "pts": {
+        "en": "Passenger transport by ship"
+      },
+      "ptsbrar": {
+        "en": "Public long distance transport"
+      },
+      "ptt": {
+        "en": "Potatoes"
+      },
+      "racs": {
+        "en": "Recreational services"
+      },
+      "raf": {
+        "en": "Refrigerators and freezers"
+      },
+      "rah": {
+        "en": "Restaurants and hotels"
+      },
+      "rahmwasd": {
+        "en": "Mineral water and soft drinks"
+      },
+      "ratrai": {
+        "en": "Radio and TV repair and installation"
+      },
+      "rbaov": {
+        "en": "Root, bulb and other vegetables"
+      },
+      "rcac": {
+        "en": "Recreation, sport and culture"
+      },
+      "rcaff": {
+        "en": "Restaurants, cafés and fast food"
+      },
+      "rcm": {
+        "en": "Recorded media"
+      },
+      "rdm": {
+        "en": "Ready-made meals"
+      },
+      "rdr": {
+        "en": "Regular dwelling repairs"
+      },
+      "rdw": {
+        "en": "Red Wine"
+      },
+      "recbo": {
+        "en": "Recreational boats"
+      },
+      "rhm": {
+        "en": "Routine household maintenance"
+      },
+      "ric": {
+        "en": "Rice and cereal grains"
+      },
+      "rnt": {
+        "en": "Rent"
+      },
+      "rogps": {
+        "en": "Rental of garages, parking spaces"
+      },
+      "romr": {
+        "en": "Rent of main residence"
+      },
+      "ropac": {
+        "en": "Reception of paid audiovisual content"
+      },
+      "rpps": {
+        "en": "Rent of permanent parking spaces"
+      },
+      "rsac": {
+        "en": "Restaurants and cafés"
+      },
+      "rtv": {
+        "en": "Root vegetables"
+      },
+      "sac": {
+        "en": "Salt, sauces and condiments"
+      },
+      "sace": {
+        "en": "Sports and camping equipment"
+      },
+      "sacg": {
+        "en": "Sweets and chewing gum"
+      },
+      "saeb": {
+        "en": "School and educational books"
+      },
+      "saed": {
+        "en": "Syrup and energy drinks"
+      },
+      "saer": {
+        "en": "Smartwatches and e-book readers"
+      },
+      "safb": {
+        "en": "Soaps and foam baths"
+      },
+      "saffp": {
+        "en": "Small appliances for food preparation"
+      },
+      "safpd": {
+        "en": "Small appliances for preparing drinks"
+      },
+      "sala": {
+        "en": "Sports activities"
+      },
+      "samp": {
+        "en": "Sausages and meat preparations"
+      },
+      "saromv": {
+        "en": "Service and repairs of motorised vehicles"
+      },
+      "sars": {
+        "en": "Sporting and recreational services"
+      },
+      "sbg": {
+        "en": "Small baked goods"
+      },
+      "scc": {
+        "en": "Second-hand cars"
+      },
+      "schsak": {
+        "en": "Spices, culinary herbs, seeds and kernels"
+      },
+      "sdac": {
+        "en": "Image and sound media"
+      },
+      "seafd": {
+        "en": "Seafood"
+      },
+      "sed": {
+        "en": "Secondary education"
+      },
+      "seha": {
+        "en": "Small household appliances"
+      },
+      "seq": {
+        "en": "Sports equipment"
+      },
+      "sfd": {
+        "en": "Soft drinks"
+      },
+      "sfdpam": {
+        "en": "Services for dwelling provision and maintenance"
+      },
+      "sfog": {
+        "en": "Rental and subscriptions for games and hobby items"
+      },
+      "sfwse": {
+        "en": "Services for winter sports equipment"
+      },
+      "sgr": {
+        "en": "Sugar"
+      },
+      "shr": {
+        "en": "Shoe repair"
+      },
+      "sjhcaps": {
+        "en": "Sugar, jams, honey, chocolate and other sweets"
+      },
+      "smd": {
+        "en": "Semi durables"
+      },
+      "sms": {
+        "en": "Summer and all-season sportswear"
+      },
+      "soad": {
+        "en": "Spirits, other alcoholic drinks"
+      },
+      "sol": {
+        "en": "Services of lawyers"
+      },
+      "spa": {
+        "en": "Parahotel accommodation"
+      },
+      "spaa": {
+        "en": "Spare parts and accessories"
+      },
+      "spbr": {
+        "en": "Special beer"
+      },
+      "spe": {
+        "en": "Sporting events"
+      },
+      "spf": {
+        "en": "Stone and pome fruit"
+      },
+      "spoar": {
+        "en": "Sporting goods"
+      },
+      "spp": {
+        "en": "Spare parts"
+      },
+      "sprt": {
+        "en": "Sportswear"
+      },
+      "sprtsbr": {
+        "en": "Spirits and brandies"
+      },
+      "sprtsrt": {
+        "en": "Spirits (retail)"
+      },
+      "spw": {
+        "en": "Sparkling wine"
+      },
+      "srs": {
+        "en": "Staff restaurants"
+      },
+      "srv": {
+        "en": "Services"
+      },
+      "srw": {
+        "en": "Swiss red wine"
+      },
+      "ssa": {
+        "en": "Summer/year-round sports articles"
+      },
+      "ssg": {
+        "en": "Sausages"
+      },
+      "ssr": {
+        "en": "Self-service restaurants"
+      },
+      "stf": {
+        "en": "Stone fruit"
+      },
+      "stv": {
+        "en": "Stem vegetables"
+      },
+      "sww": {
+        "en": "Swiss white wine"
+      },
+      "taa": {
+        "en": "Tyres"
+      },
+      "tac": {
+        "en": "Theatre and concerts"
+      },
+      "tase": {
+        "en": "Toys and sports equipment"
+      },
+      "tax": {
+        "en": "Taxi"
+      },
+      "tbc": {
+        "en": "Tobacco"
+      },
+      "tbr": {
+        "en": "Tubers"
+      },
+      "teaa": {
+        "en": "Travel equipment and accessories"
+      },
+      "teaafhag": {
+        "en": "Tools, equipment and accessories for house and garden"
+      },
+      "tfhag": {
+        "en": "Tools for house and garden"
+      },
+      "tfpvads": {
+        "en": "Taxes for private vehicles and driving school"
+      },
+      "thd": {
+        "en": "Therapeutic devices"
+      },
+      "tlcs": {
+        "en": "Information and communication services"
+      },
+      "tle": {
+        "en": "Mobile phones"
+      },
+      "tlvs": {
+        "en": "Television sets"
+      },
+      "toys": {
+        "en": "Toys"
+      },
+      "traskg": {
+        "en": "Trousers and skirts for girls"
+      },
+      "trf": {
+        "en": "Tropical fruit"
+      },
+      "trn": {
+        "en": "Transport"
+      },
+      "trs": {
+        "en": "Passenger transport services"
+      },
+      "trsrb": {
+        "en": "Trousers, boys"
+      },
+      "trt": {
+        "en": "Tea and iced tea (retail)"
+      },
+      "tsaaa": {
+        "en": "Television sets and audiovisual appliances"
+      },
+      "tsfg": {
+        "en": "Transport services for goods"
+      },
+      "ttl": {
+        "en": "Total"
+      },
+      "uamocmb": {
+        "en": "Use and maintenance of cars, motorcycles, bicycles"
+      },
+      "undb": {
+        "en": "Underwear, boys"
+      },
+      "undo": {
+        "en": "Underwear for girls"
+      },
+      "vco": {
+        "en": "Vegetable cooking oils"
+      },
+      "veac": {
+        "en": "Vehicle accessories"
+      },
+      "vel": {
+        "en": "Veal"
+      },
+      "vmap": {
+        "en": "Vegetables, mushrooms and potatoes"
+      },
+      "vppp": {
+        "en": "Viennese pastries, pastry products"
+      },
+      "vsfp": {
+        "en": "Veterinary services for pets"
+      },
+      "wadm": {
+        "en": "Writing and drawing materials"
+      },
+      "wadr": {
+        "en": "Wine-based aperitif drinks"
+      },
+      "wagc": {
+        "en": "Women's and girls' clothing"
+      },
+      "wawco": {
+        "en": "Wireline and wireless combined offers"
+      },
+      "wcaj": {
+        "en": "Women's coats and jackets"
+      },
+      "wco": {
+        "en": "Wireline combined offers"
+      },
+      "wdl": {
+        "en": "Wood logs"
+      },
+      "wdp": {
+        "en": "Wood pellets"
+      },
+      "whm": {
+        "en": "Whole milk"
+      },
+      "whw": {
+        "en": "White wine"
+      },
+      "win": {
+        "en": "Wine"
+      },
+      "wmb": {
+        "en": "Women's blouses"
+      },
+      "wmc": {
+        "en": "Women's clothing"
+      },
+      "wmdad": {
+        "en": "Laundry appliances"
+      },
+      "wmf": {
+        "en": "Women's footwear"
+      },
+      "wmh": {
+        "en": "Women's hairdressers"
+      },
+      "wmj": {
+        "en": "Women's jumpers"
+      },
+      "wmt": {
+        "en": "Women's trousers"
+      },
+      "wmu": {
+        "en": "Women's underwear"
+      },
+      "wnr": {
+        "en": "Wine (retail)"
+      },
+      "wns": {
+        "en": "Winter sportswear"
+      },
+      "wsad": {
+        "en": "Women's skirts and dresses"
+      },
+      "wse": {
+        "en": "Winter sports equipment"
+      },
+      "wtc": {
+        "en": "Watches"
+      },
+      "ygh": {
+        "en": "Yoghurt and sour milk products"
+      }
+    },
+    "sa_type": {
+      "d11": {
+        "en": "KOF seasonally adjusted series (X13 d11)"
+      },
+      "d12": {
+        "en": "KOF trend-cycle (X13 d12)"
+      }
+    },
+    "sa_provider": {
+      "kof": {
+        "en": "KOF Swiss Economic Institute"
+      }
+    }
+  },
+  "update_checksum": "4d8535d6b6975a5a4d993e0b44563b860b1e3a98b0d4edc4a14a37179bba8f4e"
+}

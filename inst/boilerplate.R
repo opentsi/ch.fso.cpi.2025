@@ -1,10 +1,11 @@
 library(deloRean)
 library(opentimeseries)
+library(jsonlite)
 
 ## Example Step 2, Generate History
 
 library(tsdbapi)
-keys <- read_dataset_keys("ch.fso.indpau")
+keys <- read_dataset_keys("ch.fso.cpi.2025")
 length(keys)
 all_vintages <- read_ts_history(keys)
 str(all_vintages) # to see the latest vintage, if the series is up to date
@@ -15,7 +16,7 @@ vintage_date_str <- sub(".+_([0-9]{8})$", "\\1", names(all_vintages))
 vintage_dates <- as.Date(vintage_date_str, format = "%Y%m%d")
 names(all_vintages) <- sub("_([0-9]{4})([0-9]{2})[0-9]{2}$", ".\\1-\\2", names(all_vintages))
 # remove the dataset prefix so keys match the relative key structure in the archive
-names(all_vintages) <- sub("^ch\\.fso\\.indpau\\.", "", names(all_vintages))
+names(all_vintages) <- sub("^ch\\.fso\\.cpi\\.2025\\.", "", names(all_vintages))
 class(all_vintages) <- c(class(all_vintages), "tslist")
 
 
@@ -25,12 +26,12 @@ head(vintages_dt, n = 100)
 
 archive_import_history(vintages_dt, repository_path = ".")
 
-
 ## Step 5: Write & Validate Metadata
 
 # check if info is available via api
 # metadata is usually available in german, i.e. locale = "de"
-indpau_meta <- read_dataset_ts_metadata("ch.fso.indpau", locale = "en")
+cpi_meta <- read_dataset_ts_metadata("ch.fso.cpi.2025", locale = "en")
+cpi_meta
 
 render_metadata()
 meta <- read_metadata(".")
@@ -39,7 +40,7 @@ validate_metadata(meta) # TRUE
 ## Step 6: Write handle_update & process_data
 
 ## Step 7: Seal Archive
-key <- "...."
+key <- "f39a0eb9f5afa9127ecf0f8c55e87b8efab6a62da7c0b1ba8f79ceac6c2fa85a"
 devtools::load_all()
 library(digest)
 checksum_input <- generate_checksum_input(key = key)
