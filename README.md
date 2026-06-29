@@ -1,32 +1,18 @@
 
----
-output: github_document
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-"
-)
-```
-
 # ch.fso.cpi.2025
 
-The ch.fso.cpi.2025 package provides versioned time series data
-and their meta information for scientific research.
-In addition, the package contains the
-extract-transform-load (ETL) functionality that
-sources the data from its original provider.
+The ch.fso.cpi.2025 package provides versioned time series data and
+their meta information for scientific research. In addition, the package
+contains the extract-transform-load (ETL) functionality that sources the
+data from its original provider.
 
 ## Browse Time Series Data
 
-You can use GitHub's ability to render to csv to explore the datasets
+You can use GitHub’s ability to render to csv to explore the datasets
 
 ## Basic Data Consumption via opentimeseries
 
-
-```r
+``` r
 remotes::install_github("opentsi/opentimeseries")
 library(opentimeseries)
 
@@ -38,12 +24,13 @@ ts <- read_open_ts(
 
 ts
 ```
+
 Given a unique time series identifier and a GitHub repo,
 *opentimeseries* will return a time series and long format `data.table`.
 
 ## Basic Usage
 
-```{r, eval=FALSE}
+``` r
 ts <- read_open_ts(
   remote_archive = "opentsi/ch.fso.cpi.2025"
 )
@@ -54,10 +41,10 @@ but the most recent one. The *opentimeseries* package will simply select
 the most recent release that was available at the selected date.
 
 Because time series data can get revised, storing vintages is important
-to monitor data revisions and benchmark forecasts. Here's a quick visual
+to monitor data revisions and benchmark forecasts. Here’s a quick visual
 comparison:
 
-```{r}
+``` r
 library(opentimeseries)
 library(tsbox)
 
@@ -71,5 +58,7 @@ ts202603 <- read_open_ts(series = "ttl",
 ts202603$id <- "total.202603"
 ts$id <- sprintf("total.202606")
 ts_plot(rbind(ts202603, ts))
+#> [time]: 'date'
 ```
 
+![](man/figures/README-unnamed-chunk-3-1.png)<!-- -->
